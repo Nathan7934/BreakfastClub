@@ -1,0 +1,58 @@
+.ProfileInput{
+    
+    text-align: left;
+    width: 596px;
+    min-height: 270px;
+    border: 2px solid rgb(212, 175, 55);
+    position: relative;
+    border-radius: 10px;
+    background-color:  rgb(253, 252, 250);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.InputPage{
+    float: left;
+    position: relative;
+    top: 50px;
+}
+
+.headerCenter{
+    text-align: center;
+
+}
+.InputContent{
+    margin: 50px;
+
+}
+#inputBio{
+    display: block;
+    float: right;
+    width : 450px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.firstEdit{
+    position: absolute;
+    left: 37%;
+    top: 30%;
+}
+
+.addKeywordsButton{
+    margin-left: 5px;
+}
+
+#keywordsList {
+    position: relative;
+    text-align: left;
+    margin-bottom: 10px;
+    top: 5px;
+    width: 385px;
+}
+
+.exitButton {
+    position: relative;
+    float: right;
+    margin: 10px;
+}

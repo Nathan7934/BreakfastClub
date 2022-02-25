@@ -1,0 +1,116 @@
+#createEvent {
+    text-align: center;
+    width: 596px;
+    min-height: 270px;
+    border: 2px solid rgb(212, 175, 55);
+    position: relative;
+    border-radius: 10px;
+    background-color:  rgb(253, 252, 250);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+#eName {
+    position: absolute;
+    left: 50px;
+    width: 250px;
+    /* margin-bottom: 10px; */
+}
+
+#eAttendee {
+    position: absolute;
+    left: 50px;
+    width: 150px;
+    top: 208px;
+}
+
+.eAttendeeAdd {
+    position: absolute;
+    left: 210px;
+    top: 208px;
+}
+
+#eDesc {
+    position: absolute;
+    display: block;
+    left : 50px;
+    top: 90px;
+    width : 495px;
+}
+
+#dateTimeLocation {
+    position: absolute;
+    left: 50px;
+    top: 180px;
+}
+
+#eDate { width: 159px; }
+
+#eTime { width: 159px; }
+
+#eLocation { width: 159px; }
+
+.createButton {
+    position: absolute;
+    height: 30px;
+    right: 50px;
+    bottom: 15px;
+}
+
+.editButton {
+    position:absolute;
+    height: 30px;
+    right: 50px;
+    bottom: 15px;
+}
+
+.removeButton {
+    position:absolute;
+    height: 30px;
+    right: 100px;
+    bottom: 15px;
+}
+
+#attendeeList {
+    position: relative;
+    text-align: left;
+    margin-bottom: 10px;
+    top: 5px;
+    width: 385px;
+    left: 50px;
+}
+
+.attendee {
+    position: relative;
+    white-space:nowrap;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(212, 175, 55);
+    border-radius: 5px;
+    background-color: rgb(252, 245, 222);
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.removeAttendee {
+    background: none;
+    display:inline-block;
+    border: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.removeAttendee:hover {
+    text-decoration: underline;
+    color: rgb(170, 27, 27);
+}
+
+textarea {
+    font-family: "Tahoma", "Arial", "Arabic Transparent";
+}
+input[type=text] {
+    font-family: "Tahoma", "Arial";
+}

@@ -1,0 +1,24 @@
+.timeline {
+	margin-top: 20px;
+	width: 600px;
+  	float: left;
+}
+
+.centered {
+	text-align: center;
+}
+
+#bannerpic{
+	margin-left: 55px;
+	width: 500px;
+}
+
+#exploreButton{
+	margin-left: 410px;
+}
+
+.buttons{
+	position: relative;
+	float: right;
+	top: -29px;
+}

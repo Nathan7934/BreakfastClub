@@ -1,0 +1,26 @@
+.center{
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    text-align: center;
+}
+
+#loginpic{
+    width: 500px;
+}
+
+#password{
+    margin-right: 11px;
+}
+
+#spacers{
+    margin-right: 5px;
+}
+
+.topmargin {
+    margin-top: 10px;
+}
+
+.title {
+    margin-top: 0px;
+}

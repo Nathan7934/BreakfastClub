@@ -1,0 +1,34 @@
+html {
+  margin: 0px;
+  height: 100%;
+}
+
+#mainCommands {
+  float: left;
+  margin-top: 100px;
+}
+
+.eventsList {
+  align-content: center;
+}
+
+#search {
+  margin-top: 50px;
+  margin-right: 100px;
+  float: right;
+}
+
+#search input {
+  font-family: 'DM Sans', sans-serif;
+  margin-bottom: 5px;
+}
+
+#search input[type=submit] {
+  border: none;
+  padding: 5px 10px;
+
+}
+
+body {
+  background-image: url("./background.jpg");
+}

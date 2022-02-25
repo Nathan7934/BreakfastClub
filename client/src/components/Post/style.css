@@ -1,0 +1,49 @@
+.post {
+	background-color: rgb(253, 252, 250);
+	min-height: 100px;
+	border-radius: 10px;
+	border: 2px solid rgb(212, 175, 55);
+	overflow: auto;
+  margin-bottom: 50px;
+}
+
+.postContent {
+	margin: 0px;
+	width: 520px;
+	margin-left: 50px;
+}
+
+.restaurantTag {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.postContentPicture {
+	max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.username {
+	text-decoration: none;
+}
+
+.deletePost {
+  margin-top: 18.72px;
+  margin-right: 50px;
+  float: right;
+}
+
+.reportPost {
+	margin-top: 18.72px;
+	margin-right: 50px;
+	float: right;
+	color: rgb(204, 1, 1);
+}
+
+.keepPost {
+	margin-top: 18.72px;
+	margin-right: 10px;
+	float: right;
+	color: rgb(0, 163, 0);
+}
+
